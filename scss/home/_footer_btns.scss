@@ -1,0 +1,41 @@
+.footer_btns {
+  padding: 3px 10px;
+  background: #fff;
+  box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
+.footer_btns__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer_btns__text {
+  color: var(--09, #282626);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.footer_btns__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer_btns__main {
+   text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+    .footer_btns__main {
+        display: flex;
+        align-items: center;
+        column-gap: 8px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+   .footer_btns {
+    display: none;
+   }
+}

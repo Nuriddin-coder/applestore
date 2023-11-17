@@ -1,0 +1,111 @@
+.info {
+  padding-top: 16px;
+}
+
+.info_des__title {
+  color: var(--1, #100e0e);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.info_des__text {
+  color: var(--07, #585656);
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 90%;
+}
+
+.push_text {
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.info_details__title {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info_details__text {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.info_more {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  padding: 24px 0;
+  background-color: #000;
+  //   background-repeat: no-repeat;
+  //   background-image: url("/img/inf0-mobile-banner.png");
+  //   background-size: cover;
+}
+
+.info_details {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.info_details__btn {
+  padding: 15px 35px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  background-color: var(--prime, #0071e4);
+  border: 2px solid transparent;
+  transition: 0.1s;
+  margin-top: 16px;
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    transition: 0.2s;
+  }
+}
+
+.info__img {
+  width: 65px;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .info_details {
+    column-gap: 72px;
+  }
+
+  .info_details__title {
+    font-size: 32px;
+  }
+
+  .info__img {
+    width: 110px;
+    height: auto;
+  }
+
+  .info_des__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .info_details {
+    column-gap: 88px;
+  }
+
+  .info_details__title {
+    font-size: 56px;
+  }
+
+  .info_details__text {
+    font-size: 24px;
+  }
+
+  .info__img {
+    width: 150px;
+    height: auto;
+  }
+}

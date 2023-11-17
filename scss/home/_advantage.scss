@@ -1,0 +1,166 @@
+.advantage {
+    padding-bottom: 24px;
+}
+
+.advantage__title {
+  color: var(--1, #100e0e);
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.cards_mob__title {
+  color: var(--1, #100e0e);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.cards_mob__text {
+  color: var(--07, #585656);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.card_mob__des {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mob_des__icon {
+  width: 32px;
+  height: 32px;
+}
+
+.advantage_cards__mob {
+  padding: 16px 23px 16px 16px;
+  border-radius: 16px;
+  background-color: #f9f9f9;
+}
+
+.advantage_main__cards {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+.advantage_card__tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  border-radius: 16px;
+  background-color: #f9f9f9;
+  padding: 32px 71px 32px 24px;
+}
+
+.tab_des__img {
+  width: 64px;
+  height: 64px;
+}
+
+.tab_des__texts {
+  max-width: 327px;
+}
+
+.card_tab__des {
+  display: flex;
+  column-gap: 26px;
+}
+
+.tab_des__title {
+  color: var(--1, #100e0e);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.tab_des__text {
+  color: var(--07, #585656);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.card_tab__btn {
+  padding: 15px 35px;
+  color: var(--prime, #0071e4);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  border: 1px solid var(--prime, #0071e4);
+  background-color: transparent;
+}
+
+.advantage__main_tab_cards {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .advantage_main__cards {
+        display: none;
+    }
+
+    .advantage__main_tab_cards {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8px;
+
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+  .advantage__main_tab_cards {
+    flex-direction: row;
+    column-gap: 15px;
+    justify-content: space-between;
+  }
+
+  .advantage_card__tab {
+    display: flex;
+    flex-direction: column;
+    padding: 24px 8px 32px 8px;
+    max-width: 228px;
+  }
+
+  .card_tab__des {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .card_tab__btn {
+    margin-top: 79px;
+  }
+
+  .tab_des__img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .bg_for {
+    background: linear-gradient(180deg, #fe94a6 0.04%, #f2f2f2 65.84%);
+  }
+
+  .bg_for__2 {
+    background: linear-gradient(180deg, #e685ff 0.04%, #f2f2f2 65.84%);
+  }
+
+  .bg_for__3 {
+    background: linear-gradient(180deg, #7de9ff 0.04%, #f2f2f2 65.84%);
+  }
+
+  .bg_for__4 {
+    background: linear-gradient(180deg, #ffe685 0.04%, #f6f6f6 65.84%);
+  }
+
+  .bg_for__5 {
+    background: linear-gradient(180deg, #adffc1 0.04%, #f2f2f2 65.84%), #f2f2f2;
+  }
+}
